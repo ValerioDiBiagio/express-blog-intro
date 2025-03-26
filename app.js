@@ -15,3 +15,5 @@ app.listen(port, () => {
 app.get('/bacheca', (req, res) => {
     res.json(foods);
 })
+
+app.use(express.static('public'));
