@@ -3,13 +3,13 @@ const foods = [
         titolo: 'Ciambellone',
         contenuto: 'Dolce',
         immagine: "imgs/food/ciambellone.jpeg",
-        tags: ['#dolce', '#ciambellone'],
+        tags: ['#dolce', '#ciambellone']
     },
     {
         titolo: 'Cracker di barbabietola',
         contenuto: 'Cracker',
         immagine: "imgs/food/cracker_barbabietola.jpeg",
-        tags: ['#cracker', '#barbabietola'],
+        tags: ['#cracker', '#barbabietola']
     },
     {
         titolo: 'Pane fritto dolce',
@@ -21,12 +21,14 @@ const foods = [
         titolo: 'Pasta con barbabietola',
         contenuto: 'Pasta',
         immagine: "imgs/food/pasta_barbabietola.jpeg",
-        tags: ['#pasta', '#barbabietola'],
+        tags: ['#pasta', '#barbabietola']
     },
     {
         titolo: 'Torta paesana',
         contenuto: 'Torta',
         immagine: "imgs/food/torta_paesana.jpeg",
-        tags: ['#torta', '#paesana'],
+        tags: ['#torta', '#paesana']
     }
 ]
+
+module.exports = foods
